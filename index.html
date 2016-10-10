@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html ng-app="app">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no,minimal-ui">
+		<!--不把一串数字识别为电话号码，高亮处理-->
+		<meta name="format-detection" content="telephone=no">
+		<link rel="stylesheet" href="./css/reset.css">
+		<link rel="stylesheet" type="text/css" href="./css/main.css">
+		
+		</style>
+	</head>
+	<body>
+	    <div id="root" class="container">
+	        <div class="m-artical-action">
+	            <div class="artical-action-mid" id="action-mid"></div>
+	        </div>
+	        <div id="top_nav" class="top-nav" style="display:none">
+	            <div class="icon-back"></div>
+	            <div class="nav-title">返回</div>
+	        </div>
+	        <div id="bottom_nav" class="bottom-nav" style="display:none">
+                <div id="icon_catalog" class="icon-catalog" >
+	                <div class="icon-catalog-pic"></div>
+	                <div class="icon-catalog-charac">目录</div>
+                </div>
+                <div id="icon_font" class="icon-font">
+	                <div class="icon-font-pic" ></div>
+	                <div class="icon-font-charac">字体</div>
+                </div>  
+                <div id="icon_state" class="icon-state" >
+                    <div id="icon-state-day">
+	                    <div class="icon-state-day-pic " ></div>
+	                    <div class="icon-day-charac">白天</div>
+	                </div>
+                    <div id="icon-state-night">
+	                    <div class="icon-state-night-pic " ></div>
+	                    <div class="icon-night-charac">夜间</div>
+	                </div>	                
+                </div> 
+	        </div>	        
+	        <div id="fition_chapter_title"></div>
+	        <div id="fiction_container" class="m-read-content">
+	
+	        </div>    
+	        <div class="m-button-bar">
+	            <ul class="u-tab">
+	                <li id="prev_button">上一章</li>
+	                <li id="next_button">下一章</li>
+	            </ul>
+	        </div>	            
+	        <div class="nav-pannel-bk" style="display:none"></div>
+	        <div class="nav-pannel" id="nav-pannel" style="display:none">
+	            <div class="child-mod">
+	                <span>字号</span>
+	                <button id="large-font" class="font-size-button">大</button>
+	                <button id="small-font" class="font-size-button">小</button>
+                </div>
+	            <div class="child-mod">
+	                <span>背景</span>
+	               	<div class="bk-container-bk">
+	                    <div class="bk-container">
+	                    </div>
+	               </div>
+	               	<div class="bk-container-bk">
+	                    <div class="bk-container bk-container-current ">
+	                    </div>
+	               </div>
+	               	<div class="bk-container-bk">
+	                    <div class="bk-container">
+	                    </div>
+	               </div>
+	               	<div class="bk-container-bk">
+	                    <div class="bk-container">
+	                    </div>
+	               </div>	 
+	               	<div class="bk-container-bk">
+	                    <div class="bk-container">
+	                    </div>
+	               </div>
+	               	<div class="bk-container-bk">
+	                    <div class="bk-container">
+	                    </div>
+	               </div>	               
+	            </div>
+	        </div>
+
+	           
+	    </div>
+	    
+		<script src="./lib/zepto.min.js"></script>
+		<script>
+		   //指向zepto的$
+			window.jQuery = $;
+		</script>
+		<script src="./js/jquery.base64.js"></script>
+		<script src="./js/jquery.jsonp.js"></script>
+
+		<script src="./js/main.js"></script>
+	</body>
+</html>

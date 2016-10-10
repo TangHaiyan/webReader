@@ -1,0 +1,41 @@
+总结：
+
+1、封装：闭包函数
+         暴露接口 Util 函数
+
+2、localStorage.getItem(key)
+
+   localStorage.settem(key,value)
+
+3、JSONP    跨越数据请求
+   数据解析JSONP插件
+   Jason数据解码
+   decode(result)
+
+   decodeURIComponent(escape(data))
+
+ 4、ES6 promise 
+
+
+ 5、项目的交互过程分解
+
+    不同类型一个函数封装
+
+
+ 继续学习：
+
+
+ promise
+
+
+
+
+
+
+
+
+
+
+   
+
+
